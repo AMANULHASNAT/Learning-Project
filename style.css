@@ -1,4 +1,322 @@
+
+/**common css**/
+
 *{
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.highlighter{
+    color: #3B50AF;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+/**Header area**/
+
+.menu{
+    text-align: right;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+ 
+.menu li{
+    display: inline;
+    list-style: none;
+}
+
+.menu a{
+    padding: 0 15px;
+    color:black;
+    font-size: 16px;
+}
+
+.menu a:hover{
+    background-color: #bae0da;
+    padding: 15px 15px;
+}
+
+/**hero section**/
+
+
+.herosection .heroleft{
+    float: left;
+    width: 50%;
+
+}
+
+.herosection .heroright{
+    overflow: hidden;
+    width: 50%;
+    
+}
+
+.herosection h1{
+    font-size: 45px;
+}
+
+.herosection p{
+    font-size: 17px;
+    line-height: 25px;
+    margin: 20px 0;
+    text-align: justify;  
+
+}
+.herosection .button{
+    font-size: 19px;
+    background-color: #3B50AF ;
+    padding: 15px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+
+
+/**About us**/
+
+.aboutus .content1{
+    margin: 40px 0 55px 0;
+}
+
+.aboutus h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.aboutus .aboutusleft{
+    width: 50%;
+    float: left;
+}
+
+.aboutusleft .aboutpic{
+    width: 97%;
+    height:448px;
+}
+
+.aboutus .aboutusright{
+    overflow: hidden;
+    width: 50%;
+}
+
+.aboutusright .content2{
+    height: 452px;
+}  
+
+.aboutus p{
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/**Our work section**/
+
+.ourwork{
+    padding-bottom: 30px;
+}
+
+.ourwork .container{
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.ourwork .content3{
+    margin: 95px 0 55px 0;
+}
+
+.ourwork h3{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.ourwork h4{
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+.ourwork .content4{
+    width: 29%;
+    float: left;
+    padding: 1%;
+}
+
+.content4 p{
+    font-size: 17px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.ourwork .content5{
+    width: 29%;
+    overflow: hidden;
+    float: left;
+    margin: 0 2.5%;
+    padding: 1%;
+}
+
+.content5 img{
+    height:236px;
+}
+
+.content5 p{
+    font-size: 17px;
+    text-align: justify;
+    line-height: 22px;
+}
+   
+
+.ourwork .content6{
+  width: 29%;
+  overflow: hidden;
+  float: left;
+  padding: 1%;
+}
+
+.content6 p{
+    font-size: 17px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.ourwork .boxshadow{
+    box-shadow: 7px 11px 18px #aab2d6c5;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.boxshadow:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+/**form start here**/
+
+.contactus{
+    overflow: hidden;
+    padding-bottom: 30px;
+    display: flex;
+    margin-top: 68px;
+}
+
+.contactus .container{
+    overflow:hidden;
+}
+.container .contentall{
+    background-color: #172d61;
+    padding: 5px;
+    overflow: hidden;
+    display: flex; 
+}
+
+.contactus .left{
+    flex-basis: 60%;
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+}
+.left h4{
+    padding: 30px 0 40px 40px;
+    font-size: 25px;
+}
+.left .content8{
+    padding: 0 0 40px 40px;
+}
+.content8 .inputgroup{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:50px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.inputgroup .inputrow{
+    flex-basis: 45%;
+    padding-right: 10px;
+}
+input{
+    width:100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 0px 0 0 0;
+}
+.content8 .message{
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+textarea{
+    width:100%;
+    outline:none;
+    padding: 4px;
+    box-sizing: border-box;
+}
+label{
+    padding-bottom: 20px;
+    display: block;
+    color: #1c00b5;
+}
+button{
+    width:90px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px 0px blue;
+}
+
+ 
+.contactus .right{
+    overflow:hidden;
+    flex-basis:40%;
+    float: left;
+    color:#fff;
+    padding: 0 0 0 40px;
+  
+}
+.right h5{
+    padding: 40px 0 40px 0;
+    font-size: 25px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-bottom: 20px;
+}
+
+
+
+ 
+
+
+
+
+
