@@ -94,6 +94,12 @@ img{
 
 
 /**About us**/
+.aboutus{
+    overflow:hidden;
+}
+.aboutus .container{
+    overflow: hidden;
+}
 
 .aboutus .content1{
     margin: 40px 0 55px 0;
